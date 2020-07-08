@@ -7,6 +7,7 @@ The objective of this project is to be a playground to learn some of the angular
 Sources
 
 - https://angular.io/guide
+- https://medium.com/@shashankvivek.7/testing-services-in-angular-karma-ed49f8d5b264
 
 Features:
 
