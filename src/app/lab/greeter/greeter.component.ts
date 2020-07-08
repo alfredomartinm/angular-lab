@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GreetingService } from '../services/greeting.service';
 
 @Component({
   selector: 'app-greeter',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GreeterComponent implements OnInit {
 
-  constructor() { }
+  constructor(private greetingService: GreetingService) { }
 
   ngOnInit(): void {
   }
 
+  greet():string{
+    return this.greetingService.greet();
+  }
 }
