@@ -10,6 +10,7 @@ Sources
 
 Features:
 
+- Dockerization
 - Testing
 
 
