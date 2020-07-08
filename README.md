@@ -1,19 +1,18 @@
 # AngularLab
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
-
 The objective of this project is to be a playground to learn some of the angular features.
-
-Sources
-
-- https://angular.io/guide
-- https://medium.com/@shashankvivek.7/testing-services-in-angular-karma-ed49f8d5b264
 
 Features:
 
 - Dockerization
 - Testing
 
+Sources
+
+- https://angular.io/guide
+- https://medium.com/@shashankvivek.7/testing-services-in-angular-karma-ed49f8d5b264
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
 ## Development server
 
