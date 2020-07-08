@@ -13,6 +13,11 @@ describe('workspace-project App', () => {
     expect(page.getTitleText()).toEqual('angular-lab app is running!');
   });
 
+  it('should display greeting message', () => {
+    page.navigateTo();
+    expect(page.getGreeterText()).toEqual('hello from greeting service');
+  });
+
   afterEach(async () => {
     // Assert that there are no errors emitted from the browser
     const logs = await browser.manage().logs().get(logging.Type.BROWSER);

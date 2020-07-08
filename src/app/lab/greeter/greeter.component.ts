@@ -8,12 +8,12 @@ import { GreetingService } from '../services/greeting.service';
 })
 export class GreeterComponent implements OnInit {
 
+  greeting: string;
+
   constructor(private greetingService: GreetingService) { }
 
   ngOnInit(): void {
+    this.greeting = this.greetingService.greet();
   }
 
-  greet():string{
-    return this.greetingService.greet();
-  }
 }
